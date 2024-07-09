@@ -1,0 +1,79 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header.contenedor_nav {
+    background-color: #78c850;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+header.contenedor_nav h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.malestares h3 {
+    color: #78c850;
+    font-size: 1.5rem;
+}
+
+.malestares ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.malestares ul li {
+    margin: 10px 0;
+}
+
+.malestares ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.malestares ul li a:hover {
+    color: #78c850;
+    text-decoration: underline;
+}
+
+nav {
+    background-color: #78c850;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    background-color: #78c850;
+    color: #fff;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
